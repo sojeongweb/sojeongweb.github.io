@@ -4,6 +4,21 @@
 	 var gnbLi = gnbSlide.children('li');
 	 var gnbOl = gnbLi.children('ol');
 	 
+	 
+	 $(window).on('scroll',function(e){
+	 var bannerTop = $('#bannerBox').offset().top;
+	 var htmlScroll = $(this).scrollTop();
+		if(htmlScroll >= bannerTop){
+		   $('.gnb_03').addClass('fixedMenu');
+			console.log('add');
+		   }else{
+		   $('.gnb_03').removeClass('fixedMenu');   
+			console.log('remove');
+		   }	  
+	  });
+	 
+	 
+	 
 	 gnbLi.on('mouseenter', function(e){
 		e.preventDefault();
 		 
@@ -18,5 +33,9 @@
 		 });
 		 
 	 });
+	 
+
+	 
+
 	 
   })(this.jQuery);

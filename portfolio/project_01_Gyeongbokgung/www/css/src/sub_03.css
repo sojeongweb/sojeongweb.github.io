@@ -67,7 +67,7 @@ h1 a > span { width: 0; height: 0; display: block; overflow: hidden; }
 #gnb { width: 720px; height: 26px; float: right; margin-right: 42px; margin-top: 16px; position: relative; z-index: 500; }
 #gnb > ul { width: 100%; height: 100%; padding-left: 16px; }
 #gnb > ul > li { float: left; color: #575757; font-weight: bolder; padding-bottom: 20px; position: relative; }
-#gnb > ul > li > a { font-size: 1.1em; padding-right: 48px; }
+#gnb > ul > li > a { font-size: 1.1em; padding-right: 44px; }
 #gnb > ul > li:last-child > a { padding-right: 0; }
 #gnb .gnb_01 { width: 1024px; color: #cdcdcd; height: 50px; position: absolute; top: 42px; z-index: 100; left: 50%; display: none; padding: 16px; margin-left: -332px; box-sizing: border-box; padding-left: 60px; }
 #gnb .gnb_01::after { content: " "; display: block; width: 100vw; height: inherit; position: absolute; top: 0; left: 50%; margin-left: -50vw; z-index: -1; background-color: rgba(239, 239, 239, 0.7); }
@@ -99,19 +99,20 @@ h1 a > span { width: 0; height: 0; display: block; overflow: hidden; }
 #gnb .gnb_06 > li { color: #666; }
 #gnb .gnb_06 > li > a { float: left; margin-right: 60px; }
 #gnb .gnb_06 > li:last-child > a { margin-right: 0; }
+#gnb .gnb_03.fixedMenu { position: fixed; top: 0; display: block !important; }
 
 /* #footBox */
 #footBox { width: 100%; min-width: 960px; height: 100px; background-color: #EFEFEF; position: relative; }
-#footBox > h2 { width: 200px; height: 60px; float: left; margin: 20px 20px; mix-blend-mode: darken; }
+#footBox > h2 { width: 200px; height: 60px; float: left; margin: 14px 20px; mix-blend-mode: darken; }
 #footBox > h2 a { width: 100%; height: 100%; display: block; background-repeat: no-repeat; background-position: center; background-image: url("../../img/main/footer_logo.png"); }
 #footBox > h2 a > span { width: 0; height: 0; display: block; overflow: hidden; }
-#footBox > address { width: 530px; height: 60px; float: left; margin-top: 36px; font-style: normal; }
+#footBox > address { width: 530px; height: 60px; float: left; margin-top: 28px; font-style: normal; }
 #footBox > address > p { margin-right: 24px; font-size: 0.9em; line-height: 1.6em; }
 #footBox > address > p:nth-child(1) { color: #231815; float: left; }
 #footBox > address > p:nth-child(2) { float: left; }
 #footBox > address > p:nth-child(3) { float: left; margin-right: 0; }
 #footBox > address > p:nth-child(4) { float: left; }
-#footBox > .inpo { float: left; margin-top: 36px; font-weight: bold; font-size: 0.9em; margin-left: 30px; }
+#footBox > .inpo { float: left; margin-top: 28px; font-weight: bold; font-size: 0.9em; margin-left: 30px; }
 #footBox::after { content: " "; display: block; width: 100vw; height: inherit; position: absolute; top: 0; left: 50%; margin-left: -50vw; z-index: -1; background-color: inherit; }
 
 /* sub-03.scss */

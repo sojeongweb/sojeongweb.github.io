@@ -63,8 +63,8 @@ tbody th { background-color: #cfcfcf; }
   .one .one_02 { background-image: url("../../img/one_02.png"); z-index: 100; }
   .one .one_03 { background-image: url("../../img/one_03.png"); z-index: 0; }
   .one_text { width: 50vw; height: 20vw; margin: 0 auto; text-align: center; }
-  .one_text h3 { width: 75%; height: 24%; background-color: #29d3c2; font-size: 1.3em; margin: 0 auto; margin-bottom: 1.5em; padding-top: 0.4em; box-sizing: border-box; }
-  .one_text p { font-size: 1.3em; margin-bottom: 0.8em; }
+  .one_text h3 { width: 90%; height: 24%; background-color: #29d3c2; font-size: 1.3em; margin: 0 auto; margin-bottom: 1.5em; padding-top: 0.4em; box-sizing: border-box; }
+  .one_text p { width: 100%; height: auto; font-size: 1.2em; margin-bottom: 0.8em; }
   #contentBox_01 { width: 100%; height: 100%; background-color: #29d3c2; position: relative; overflow: hidden; }
   .gradient_box { width: 100%; height: 86%; background-color: #29d3c2; background-image: linear-gradient(30deg, #00b7ab, #008c89); position: absolute; left: 0; bottom: -20%; transform: skewY(-18deg); }
   .gradient_box::before { content: " "; border: 0.35em solid #fc6389; width: 100%; position: absolute; top: -6%; right: 0; }
@@ -75,10 +75,18 @@ tbody th { background-color: #cfcfcf; }
   .img_box .two_02 { background-image: url("../../img/two_02.png"); z-index: 100; top: 2em; }
   .text_box { width: 70vw; height: 45vw; margin: 8% auto; background-repeat: no-repeat; background-position: center; background-size: contain; background-image: url("../../img/two_text.png"); }
   #contentBox_02 { width: 100%; height: 100%; background-color: #fff; position: relative; overflow: hidden; }
-  #contentBox_02 > div { transform: skewY(10deg); }
+  #contentBox_02 > div { transform: skewY(10deg); overflow: hidden; }
+  #contentBox_02 > div > span { width: 20%; height: auto; transform: skewY(-10deg); display: block; margin-top: 20%; position: absolute; left: 5%; font-size: 1.7em; }
+  #contentBox_02 > div:nth-child(1) > span { margin-top: 35%; }
+  #contentBox_02 > div:nth-child(2) > span { margin-top: 12%; }
+  #contentBox_02 > div:nth-child(3) > span { margin-top: 8%; }
+  #contentBox_02 > div > div { transform: skewY(-10deg); background-position: 0 0; background-repeat: no-repeat; background-size: 100%; }
   .box_01 { width: 100vw; height: 110vw; background-color: #fcb62d; position: absolute; top: -10%; right: 0; }
   .box_02 { width: 100vw; height: 110vw; background-color: #b56efb; position: absolute; top: 32%; }
   .box_03 { width: 100vw; height: 110vw; background-color: #29d3c2; position: absolute; top: 67%; }
+  .the_img_01 { width: 80%; height: 60%; margin-left: 28%; margin-top: 13%; background-image: url("../../img/the_01.png"); }
+  .the_img_02 { width: 100%; height: 50%; margin-left: 10%; background-image: url("../../img/the_02.png"); }
+  .the_img_03 { width: 80%; height: 90%; margin-left: 25%; background-image: url("../../img/the_03.png"); }
   #contentBox_03 { width: 100%; height: 100%; background-color: #fcb62d; position: relative; }
   #contentBox_03::before { content: " "; border: 0.5em solid #b56efb; width: 100%; position: absolute; top: 30%; right: 0; transform: skewY(-17deg); }
   #contentBox_03::after { content: " "; border: 0.2em solid #b56efb; width: 20%; position: absolute; top: 36%; lift: 0%; transform: skewY(-17deg); }
@@ -126,7 +134,7 @@ tbody th { background-color: #cfcfcf; }
   .one_text p { font-size: 1.3em; margin-bottom: 0.8em; }
   #contentBox_01 { width: 100%; height: 100%; background-color: #29d3c2; position: relative; overflow: hidden; }
   .gradient_box { width: 100%; height: 90%; background-color: #29d3c2; background-image: linear-gradient(30deg, #00b7ab, #008c89); position: absolute; left: 0; bottom: -33%; transform: skewY(-18deg); }
-  .gradient_box::before { content: " "; border: 0.3em solid #fc6389; width: 100%; position: absolute; top: -4%; right: 0; position: relative; }
+  .gradient_box::before { content: " "; border: 0.3em solid #fc6389; width: 100%; position: absolute; top: -4%; right: 0; }
   .gradient_box > div { transform: skewY(18deg); }
   .img_box { width: 50vw; height: 35vw; margin: 0 auto; margin-top: -20%; position: relative; }
   .img_box div { width: 100%; height: 100%; background-repeat: no-repeat; background-position: center; background-size: contain; position: absolute; }
@@ -134,10 +142,18 @@ tbody th { background-color: #cfcfcf; }
   .img_box .two_02 { background-image: url("../../img/two_02.png"); z-index: 100; top: 2em; }
   .text_box { width: 35vw; height: 28vw; margin: 0 auto; position: absolute; top: 16%; right: 10%; background-repeat: no-repeat; background-position: center; background-size: contain; background-image: url("../../img/two_text.png"); }
   #contentBox_02 { width: 100%; height: 100%; background-color: #fff; position: relative; overflow: hidden; }
-  #contentBox_02 > div { transform: skewX(-30deg); }
+  #contentBox_02 > div { transform: skewX(-30deg); overflow: hidden; }
+  #contentBox_02 > div > span { transform: skewX(30deg); width: 10%; height: auto; display: block; margin-top: 20%; position: absolute; left: 5%; font-size: 2em; margin-top: 10%; }
+  #contentBox_02 > div:nth-child(1) > span { margin-left: 17%; }
+  #contentBox_02 > div:nth-child(2) > span { margin-left: 9%; }
+  #contentBox_02 > div:nth-child(3) > span { margin-left: 2%; }
+  #contentBox_02 > div > div { transform: skewX(30deg); background-position: 0 0; background-repeat: no-repeat; background-size: 100%; }
   .box_01 { width: 100vw; height: 110vw; background-color: #fcb62d; position: absolute; top: 0; left: -35%; }
   .box_02 { width: 100vw; height: 110vw; background-color: #b56efb; position: absolute; top: 0; left: 12%; }
   .box_03 { width: 100vw; height: 110vw; background-color: #29d3c2; position: absolute; top: 0; left: 52%; }
+  .the_img_01 { width: 60%; height: 80%; margin-left: 28%; margin-top: 13%; background-image: url("../../img/the_01.png"); }
+  .the_img_02 { width: 80%; height: 80%; margin-top: 15%; background-image: url("../../img/the_02.png"); }
+  .the_img_03 { width: 70%; height: 70%; margin-left: 20%; margin-top: 25%; background-image: url("../../img/the_03.png"); }
   #contentBox_03 { width: 100%; height: 100%; background-color: #fcb62d; position: relative; }
   #contentBox_03::before { content: " "; border: 0.5em solid #b56efb; width: 100%; position: absolute; top: 50%; right: 0; transform: skewY(-17deg); }
   #contentBox_03::after { content: " "; border: 0.2em solid #b56efb; width: 20%; position: absolute; top: 66%; lift: 0%; transform: skewY(-17deg); }
@@ -181,7 +197,7 @@ tbody th { background-color: #cfcfcf; }
   h1 { width: 30vw; height: 10vw; background-image: url("../../img/logo.png"); background-position: 0 0; background-repeat: no-repeat; margin: 0 auto; background-size: 100%; }
   #gnb { width: 10vw; height: 10vw; background-image: url(../../img/menu.png); background-position: 0 0; background-repeat: no-repeat; position: fixed; top: 1.2em; right: 1.2em; background-size: 100%; z-index: 500; box-sizing: border-box; }
   #gnb ul { width: 80vw; height: 80vw; background-color: #fc6389; display: none; }
-  .one { width: 90vw; height: 60vw; margin: 15vw auto; margin-bottom: 22vw; position: relative; }
+  .one { width: 90vw; height: 60vw; margin: 15vw auto; margin-botom: 22vw; position: relative; }
   .one div { background-repeat: no-repeat; background-position: center; background-size: contain; position: absolute; }
   .one .one_01 { width: 90%; height: 90%; background-image: url("../../img/one_01.png"); z-index: 500; margin: 1em 3.5em; }
   .one .one_02 { width: 100%; height: 100%; background-image: url("../../img/one_02.png"); z-index: 100; padding-top: 2em; }
@@ -197,12 +213,20 @@ tbody th { background-color: #cfcfcf; }
   .img_box div { background-repeat: no-repeat; background-position: center; background-size: contain; position: absolute; }
   .img_box .two_01 { width: 100%; height: 100%; background-image: url("../../img/two_01.png"); z-index: 200; }
   .img_box .two_02 { width: 100%; height: 100%; background-image: url("../../img/two_02.png"); margin-top: 2em; z-index: 100; }
-  .text_box { width: 75vw; height: 70vw; margin: 10% auto; background-image: url("../../img/two_text.png"); background-repeat: no-repeat; background-position: 0 0; }
+  .text_box { width: 75vw; height: 70vw; margin: 10% auto; background-image: url("../../img/two_text.png"); background-repeat: no-repeat; background-position: center; background-size: 100%; }
   #contentBox_02 { width: 100%; height: 100%; background-color: #fff; position: relative; overflow: hidden; }
-  #contentBox_02 > div { transform: skewY(10deg); }
+  #contentBox_02 > div { transform: skewY(10deg); overflow: hidden; }
+  #contentBox_02 > div > span { width: 20%; height: auto; transform: skewY(-10deg); display: block; margin-top: 20%; position: absolute; left: 5%; font-size: 1.3em; }
+  #contentBox_02 > div:nth-child(1) > span { margin-top: 32%; }
+  #contentBox_02 > div:nth-child(2) > span { margin-top: 12%; }
+  #contentBox_02 > div:nth-child(3) > span { margin-top: 8%; }
+  #contentBox_02 > div > div { transform: skewY(-10deg); background-position: 0 0; background-repeat: no-repeat; background-size: 120%; }
   .box_01 { width: 100vw; height: 110vw; background-color: #fcb62d; position: absolute; top: -10%; right: 0; }
   .box_02 { width: 100vw; height: 110vw; background-color: #b56efb; position: absolute; top: 32%; }
   .box_03 { width: 100vw; height: 110vw; background-color: #29d3c2; position: absolute; top: 67%; }
+  .the_img_01 { width: 70%; height: 70%; margin-left: 35%; margin-top: 20%; background-image: url("../../img/the_01.png"); }
+  .the_img_02 { width: 100%; height: 50%; margin-left: 10%; background-image: url("../../img/the_02.png"); }
+  .the_img_03 { width: 80%; height: 90%; margin-left: 25%; background-image: url("../../img/the_03.png"); }
   #contentBox_03 { width: 100%; height: 100%; background-color: #fcb62d; position: relative; }
   #contentBox_03::before { content: " "; border: 0.35em solid #b56efb; width: 100%; position: absolute; top: 30%; right: 0; transform: skewY(-17deg); }
   #contentBox_03::after { content: " "; border: 0.2em solid #b56efb; width: 20%; position: absolute; top: 34%; lift: 0%; transform: skewY(-17deg); }
@@ -217,7 +241,8 @@ tbody th { background-color: #cfcfcf; }
   #contentBox_04 { width: 100%; height: 100%; background-color: #b56efb; padding: 1em; box-sizing: border-box; padding-top: 10%; background-image: url("../../img/five_bgi_mb.png"); background-repeat: no-repeat; background-position: center; background-size: cover; }
   #contentBox_04 h3 { font-size: 17vw; text-align: center; text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); }
   #contentBox_04 .logo_box { width: 45vw; height: 110vw; margin: 0 auto; }
-  #contentBox_04 .logo_box > li { width: inherit; height: 27%; background-color: #fff; margin-bottom: 16%; border-radius: 2.5em; background-repeat: no-repeat; background-position: center; }
+  #contentBox_04 .logo_box > li { width: inherit; height: 27%; background-color: #fff; margin-bottom: 16%; border-radius: 2.5em; background-repeat: no-repeat; background-position: center; background-size: 70%; }
+  #contentBox_04 .logo_box > li::before { content: " "; width: inherit; height: 100%; margin-bottom: 16%; border-radius: 2.5em; background-repeat: no-repeat; background-position: center; display: block; }
   #contentBox_04 .logo_box > li:first-child { background-image: url("../../img/five_01.png"); }
   #contentBox_04 .logo_box > li:nth-child(2) { background-image: url("../../img/five_02.png"); }
   #contentBox_04 .logo_box > li:last-child { margin-bottom: 0; background-image: url("../../img/five_03.png"); }

@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$pink".
-        on line 7 of scss/src/main_02.scss
+        on line 9 of scss/src/main_02.scss
 
-2: 	
-3: html{width: 100%; height: 100%;}
-4: body{width: 100%; height: 100%;}
-5: #wrap{width: 100%; height: 100%; position: relative;}
-6: //-------------HEADBOX--------------
-7: #headBox{width: 100%; height: 100%; background-color: $pink; padding:1.4em; box-sizing: border-box;}
-8: h1{width: 23vw; height: 8vw; background-image: url("../../img/logo.png"); background-position: 0 0; background-repeat: no-repeat; background-size: 100%; float: left; position: fixed; left: 1.4em; top: 1.4em; z-index: 500;}
-9: 	
-10: 	//.indicater----------------
-11: 	.indicator{width: 1.2em; height:auto; position: fixed; top:40%; right: 1.4em; z-index: 500;
-12: 		li{width: 1.2em; height: 1.2em; background-color: #fff; margin-bottom: 0.7em; border-radius: 3em;}
+4: 	
+5: html{width: 100%; height: 100%;}
+6: body{width: 100%; height: 100%;}
+7: #wrap{width: 100%; height: 100%; position: relative;}
+8: //-------------HEADBOX--------------
+9: #headBox{width: 100%; height: 100%; background-color: $pink; padding:1.4em; box-sizing: border-box;}
+10: h1{width: 23vw; height: 8vw; background-image: url("../../img/logo.png"); background-position: 0 0; background-repeat: no-repeat; background-size: 100%; float: left; position: fixed; left: 1.4em; top: 1.4em; z-index: 500;}
+11: 	
+12: 	//.indicater----------------
+13: 	.indicator{width: 1.2em; height:auto; position: fixed; top:40%; right: 1.4em; z-index: 500;
+14: 		li{width: 1.2em; height: 1.2em; background-color: #fff; margin-bottom: 0.7em; border-radius: 3em;}
 
 Backtrace:
-scss/src/main_02.scss:7
+scss/src/main_02.scss:9
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -81,4 +81,4 @@ scss/src/main_02.scss:7
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$pink\".\A         on line 7 of scss/src/main_02.scss\A \A 2: 	\A 3: html{width: 100%; height: 100%;}\A 4: body{width: 100%; height: 100%;}\A 5: #wrap{width: 100%; height: 100%; position: relative;}\A 6: //-------------HEADBOX--------------\A 7: #headBox{width: 100%; height: 100%; background-color: $pink; padding:1.4em; box-sizing: border-box;}\A 8: h1{width: 23vw; height: 8vw; background-image: url(\"../../img/logo.png\"); background-position: 0 0; background-repeat: no-repeat; background-size: 100%; float: left; position: fixed; left: 1.4em; top: 1.4em; z-index: 500;}\A 9: 	\A 10: 	//.indicater----------------\A 11: 	.indicator{width: 1.2em; height:auto; position: fixed; top:40%; right: 1.4em; z-index: 500;\A 12: 		li{width: 1.2em; height: 1.2em; background-color: #fff; margin-bottom: 0.7em; border-radius: 3em;}"; }
+  content: "Error: Undefined variable: \"$pink\".\A         on line 9 of scss/src/main_02.scss\A \A 4: 	\A 5: html{width: 100%; height: 100%;}\A 6: body{width: 100%; height: 100%;}\A 7: #wrap{width: 100%; height: 100%; position: relative;}\A 8: //-------------HEADBOX--------------\A 9: #headBox{width: 100%; height: 100%; background-color: $pink; padding:1.4em; box-sizing: border-box;}\A 10: h1{width: 23vw; height: 8vw; background-image: url(\"../../img/logo.png\"); background-position: 0 0; background-repeat: no-repeat; background-size: 100%; float: left; position: fixed; left: 1.4em; top: 1.4em; z-index: 500;}\A 11: 	\A 12: 	//.indicater----------------\A 13: 	.indicator{width: 1.2em; height:auto; position: fixed; top:40%; right: 1.4em; z-index: 500;\A 14: 		li{width: 1.2em; height: 1.2em; background-color: #fff; margin-bottom: 0.7em; border-radius: 3em;}"; }
